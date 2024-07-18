@@ -1,0 +1,72 @@
+.custom-logo-size {
+    height: 55px; 
+    width: auto;  
+}
+
+#custom-navbar-text{
+    font-size: 20px;
+    font-weight: bold
+
+}
+
+
+
+
+.custom-section {
+    background-image: url('./images/fast_collage.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 0px; 
+   
+}
+
+#get-started{
+    background-color: #0095da;
+    font-size: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    height: 40px;
+
+    
+}
+
+#home{
+    font-size: 22px;
+    margin-right: 180px;
+    color: #0095da;
+}
+
+#Start-Calculating{
+    background-color: #0095da;
+    font-size: 18x;
+    padding: 12px;
+    
+}
+
+#Start-Calculating {
+    background-color: #0095da; 
+    transition: background-color 0.1s ease; 
+}
+
+#Start-Calculating:hover {
+    background-color: #0077b6; 
+}
+
+#Start-Calculating:focus {
+    outline: none; 
+    box-shadow: 0 0 0 3px rgba(0, 149, 218, 0.5); 
+}
+
+#Start-Calculating svg {
+    margin-left: 0.5rem;
+    padding-top: 4px; 
+}
+
+
+
+
+
