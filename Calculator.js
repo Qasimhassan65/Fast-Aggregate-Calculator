@@ -155,7 +155,7 @@ $(document).ready(function() {
     }
 
     function displayAggregate(nuTestScore, marks) {
-        var totalAggregate = ((nuTestScore/120)* 0.5) + (marks * 0.5);
+        var totalAggregate = (((nuTestScore/120)*100)* 0.5) + (marks * 0.5);
         $('.score').text(totalAggregate.toFixed(2)); 
 
         $('#step2-matric').hide();
