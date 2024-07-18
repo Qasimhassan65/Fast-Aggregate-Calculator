@@ -10,8 +10,8 @@ $(document).ready(function() {
     $('#nextStep').click(function() {
         nuTestScore = parseFloat($('#nuTestScore').val());
 
-        if (isNaN(nuTestScore) || nuTestScore < 0 || nuTestScore > 100) {
-            alert('Please enter a valid NU Test Score between 0 and 100.');
+        if (isNaN(nuTestScore) || nuTestScore < 0 || nuTestScore > 120) {
+            alert('Please enter a valid NU Test Score between 0 and 120.');
             return;
         }
 
@@ -155,7 +155,7 @@ $(document).ready(function() {
     }
 
     function displayAggregate(nuTestScore, marks) {
-        var totalAggregate = (nuTestScore * 0.5) + (marks * 0.5);
+        var totalAggregate = ((nuTestScore/120)* 0.5) + (marks * 0.5);
         $('.score').text(totalAggregate.toFixed(2)); 
 
         $('#step2-matric').hide();
